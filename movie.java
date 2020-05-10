@@ -247,7 +247,7 @@ import androidx.room.PrimaryKey;
 /**
  classe 'Movie'
  Representa a estrutura de dados da entidade/tabela Movie. As colunas (campos da tabela)
- ID, TITLE, StrikingScene, SCORE e CREATIONDATE serão criadas como membros privados da classe. As
+ ID, TITLE, STRIKINGSCENE, SCORE e CREATIONDATE serão criadas como membros privados da classe. As
  restricões de cada coluna serão informadas com o uso da anotação '@' de acordo com o
  tipo correspondente.
  */
