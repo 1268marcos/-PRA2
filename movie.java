@@ -323,11 +323,11 @@ public class Movie {
 
   @PrimaryKey(autoGenerate = true)
     @NonNull
-    @ColumnInfo(title = "movieId")
+    @ColumnInfo(name = "movieId")
     private int mId;
 
     @Nullable
-    @ColumnInfo(title = "movieTitle")
+    @ColumnInfo(name = "movieTitle")
     private String mTitle;
 
     private String mStrikingScene;
